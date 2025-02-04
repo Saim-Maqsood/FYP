@@ -1,7 +1,16 @@
+import Head from 'next/head';
 import React from 'react';
-
-const Cart: React.FC = () => {
+export const generateMetadata = () => {
+    return {
+      title:"medMagic - Cart"
+    }
+  }
+const Cart = () => {
     return (
+        <>
+        <Head>
+            <title>{generateMetadata().title}</title>
+        </Head>
         <div className="min-h-screen bg-[#1a1a1a] text-white p-4">
             <h1 className="text-3xl font-bold mb-4">Your Cart</h1>
             <div className="flex flex-col space-y-4">
@@ -26,6 +35,7 @@ const Cart: React.FC = () => {
                 <button className="px-6 py-3 bg-green-600 rounded-lg hover:bg-green-700">Checkout</button>
             </div>
         </div>
+        </>
     );
 };
 

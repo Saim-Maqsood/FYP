@@ -1,7 +1,16 @@
+import Head from 'next/head'
 import Image from 'next/image'
+export const generateMetadata = () => {
+  return {
+    title:"medMagic - About"
+  }
+}
 const page = () => {
   return (
     <>
+    <Head>
+      <title>{generateMetadata().title}</title>
+    </Head>
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
