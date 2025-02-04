@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Med Magic
 
-## Getting Started
+An online medical e-commerce website making it easier for people to purchase medicines and other medical products. We are planning on introducing new and distinct features as soon as possible.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+This project is deployed on Vercel, so installation is not required for end-users. However, if you want to run the project locally for development or testing purposes, follow these steps:
+
+1. Clone the GitHub repository:
+```bash   
+   git clone <your_repository_url>  # Replace with your actual repository URL
 ```
+2. Navigate to the project directory:
+```bash
+   cd med-magic  # Replace with the actual directory name if different
+```
+4. Install the required dependencies:
+   ```bash
+   npm install react-type-animation react-icons
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Run the development server:
+   ```bash
+   npm run dev  # Or the appropriate command to start your Next.js app (e.g., npm start)
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To run the project locally, follow the installation instructions above. Once the development server is running, you can access the website in your browser.  *(Add more specific usage instructions here.  For example, how to register, log in, browse products, add to cart, checkout, etc.  Include screenshots or GIFs if helpful.)*
 
-## Learn More
+Example:
 
-To learn more about Next.js, take a look at the following resources:
+1. Open your browser and go to `http://localhost:3000` (or the port your development server is running on).
+2. Click on the "Register" link to create a new account.
+3. Browse the product catalog... *(continue with detailed steps)*
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Currently, contributions are not being accepted as this project is limited to Final Year Project (FYP) purposes. However, we plan to make it open source in the future, at which point contributions will be welcomed
