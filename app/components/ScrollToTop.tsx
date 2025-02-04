@@ -5,7 +5,7 @@ const ScrollToTop: React.FC = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     const toggleVisibility = () => {
-        if (window.pageYOffset > 300) {
+        if (window.scrollY > 300) {
             setIsVisible(true);
         } else {
             setIsVisible(false);
@@ -31,7 +31,7 @@ const ScrollToTop: React.FC = () => {
             {isVisible && (
                 <button
                     onClick={scrollToTop}
-                    className="bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-700 transition duration-300"
+                    className="bg-blue-500 text-white p-2 rounded-full shadow-lg hover:bg-blue-700"
                 >
                     ↑
                 </button>
