@@ -1,4 +1,3 @@
-```markdown
 # Med Magic
 
 An online medical e-commerce website making it easier for people to purchase medicines and other medical products. We are planning on introducing new and distinct features as soon as possible.
@@ -8,21 +7,19 @@ An online medical e-commerce website making it easier for people to purchase med
 This project is deployed on Vercel, so installation is not required for end-users. However, if you want to run the project locally for development or testing purposes, follow these steps:
 
 1. Clone the GitHub repository:
-   ```bash
+```bash   
    git clone <your_repository_url>  # Replace with your actual repository URL
-   ```
-
+```
 2. Navigate to the project directory:
-   ```bash
+```bash
    cd med-magic  # Replace with the actual directory name if different
-   ```
-
-3. Install the required dependencies:
+```
+4. Install the required dependencies:
    ```bash
    npm install react-type-animation react-icons
    ```
 
-4. Run the development server:
+5. Run the development server:
    ```bash
    npm run dev  # Or the appropriate command to start your Next.js app (e.g., npm start)
    ```
