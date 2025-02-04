@@ -67,6 +67,9 @@ const Navbar = () => {
             <Link href="/contact" className="text-gray-700 hover:text-blue-500">
               Contact Us
             </Link>
+            <Link href="/login" className="text-gray-700 hover:text-blue-500">
+              Cart
+            </Link>
           </div>
         </div>
       </nav>
