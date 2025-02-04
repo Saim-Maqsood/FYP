@@ -23,7 +23,7 @@ const Banner = () => {
             ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: '1.5em', display: 'block', color: 'white' }}
+            style={{ fontSize: '2em', display: 'block', color: 'white' }}
             repeat={Infinity}
           />
           <p className='text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white'>Welcome to <span className={`${fonda.className} text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl`}>medMagic</span></p>

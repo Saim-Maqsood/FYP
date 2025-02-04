@@ -74,30 +74,22 @@ const page = () => {
       <section className="py-16">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold text-gray-800 text-center">
-            Meet Our Experts
+            Meet Our Executives
           </h2>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg text-center p-6">
-              <Image src={""}/>
-              <h3 className="mt-4 text-lg font-bold text-gray-800">Dr. Sarah</h3>
+              <Image src={"/mypic.png"} width={150} height={150} alt='Team Member' className="mx-auto rounded-full w-24 h-24" />
+              <h3 className="mt-4 text-lg font-bold text-gray-800">Mr. Saim Maqsood</h3>
               <p className="text-gray-600">Founder & CEO</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg text-center p-6">
-              <Image
-                src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="mx-auto rounded-full w-24 h-24"
-              />
-              <h3 className="mt-4 text-lg font-bold text-gray-800">M. Aslam</h3>
+              <Image src={"/operations_manager.jpg"} width={150} height={150} alt='Team Member' className="mx-auto rounded-full w-24 h-24" />
+              <h3 className="mt-4 text-lg font-bold text-gray-800">Mr. M. Aslam</h3>
               <p className="text-gray-600">Operations Manager</p>
             </div>
             <div className="bg-white rounded-lg shadow-lg text-center p-6">
-              <Image
-                src="https://via.placeholder.com/150"
-                alt="Team Member"
-                className="mx-auto rounded-full w-24 h-24"
-              />
-              <h3 className="mt-4 text-lg font-bold text-gray-800">Sana</h3>
+              <Image src={"/customer_support_lead.jpg"} width={150} height={150} alt='Team Member' className="mx-auto rounded-full w-24 h-24" />
+              <h3 className="mt-4 text-lg font-bold text-gray-800">Ms. Sana</h3>
               <p className="text-gray-600">Customer Support Lead</p>
             </div>
           </div>
@@ -109,7 +101,7 @@ const page = () => {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6">
               <p className="italic">
-                "Med Magic+ has transformed the way we purchase medical supplies.
+                "Med Magic has transformed the way we purchase medical supplies.
                 Their service is outstanding!"
               </p>
               <h3 className="mt-4 text-lg font-bold">-Hammad</h3>
@@ -117,14 +109,14 @@ const page = () => {
             <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6">
               <p className="italic">
                 "Exceptional quality and customer service. Highly recommend Med
-                Magic+!"
+                Magic!"
               </p>
               <h3 className="mt-4 text-lg font-bold">- Abdullah</h3>
             </div>
             <div className="bg-white text-gray-800 rounded-lg shadow-lg p-6">
               <p className="italic">
                 "A reliable partner in our healthcare journey. Thank you Med
-                Magic+!"
+                Magic!"
               </p>
               <h3 className="mt-4 text-lg font-bold">- Anna</h3>
             </div>

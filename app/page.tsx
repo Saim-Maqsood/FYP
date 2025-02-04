@@ -1,5 +1,4 @@
 import Banner from "./components/Banner"
-import Card from "./components/Card"
 
 const page = () => {
   return (
@@ -8,5 +7,4 @@ const page = () => {
     </>
   )
 }
-
 export default page
