@@ -2,6 +2,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { SignInButton, SignUpButton } from '@clerk/nextjs';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,19 +68,15 @@ const Navbar = () => {
             <Link href="/contact" className="text-gray-700 hover:text-blue-500">
               Contact Us
             </Link>
-            <Link href="/login" className="text-gray-700 hover:text-blue-500">
+            <Link href="/cart" className="text-gray-700 hover:text-blue-500">
               Cart
             </Link>
           </div>
         </div>
       </nav>
       <div className='w-screen h-[5dvh] flex justify-center text-white gap-6'>
-        <Link href={"/login"}>
-        <button type='submit' className='text-xs bg-rose-600 p-1 sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl rounded-xl disabled:opacity-25'>Login</button>
-        </Link>
-        <Link href={"/register"}>
-        <button type='submit' className='text-xs bg-rose-600 p-1 sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl rounded-xl disabled:opacity-25'>SignUp</button>
-        </Link>
+        <SignUpButton />
+        <SignInButton />
       </div>
     </>
   );
