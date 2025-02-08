@@ -16,7 +16,7 @@ This project is deployed on Vercel, so installation is not required for end-user
 ```
 4. Install the required dependencies:
 ```bash
-   npm install react-type-animation react-icons
+   npm i react-type-animation react-icons
 ```
 
 5. Run the development server:
