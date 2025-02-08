@@ -12,7 +12,7 @@ This project is deployed on Vercel, so installation is not required for end-user
 ```
 2. Navigate to the project directory:
 ```bash
-   cd med-magic  # Replace with the actual directory name if different
+   cd med-magic
 ```
 4. Install the required dependencies:
 ```bash
