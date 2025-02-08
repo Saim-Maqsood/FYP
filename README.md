@@ -8,21 +8,21 @@ This project is deployed on Vercel, so installation is not required for end-user
 
 1. Clone the GitHub repository:
 ```bash   
-   git clone <your_repository_url>  # Replace with your actual repository URL
+   git clone git@github.com:Saim-Maqsood/FYP.git
 ```
 2. Navigate to the project directory:
 ```bash
    cd med-magic  # Replace with the actual directory name if different
 ```
 4. Install the required dependencies:
-   ```bash
+```bash
    npm install react-type-animation react-icons
-   ```
+```
 
 5. Run the development server:
-   ```bash
-   npm run dev  # Or the appropriate command to start your Next.js app (e.g., npm start)
-   ```
+```bash
+   npm run dev
+```
 
 ## Usage
 
