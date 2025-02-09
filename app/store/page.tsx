@@ -1,3 +1,4 @@
+
 import Head from "next/head"
 import Image from "next/image"
 export const generateMetadata = () => {
@@ -91,6 +92,8 @@ const page = () => {
           <div className="p-4">
               <h4 className="font-bold text-lg text-gray-800">Infant Formula</h4>
               <p className="text-gray-600 mt-2">$26.00</p>
+              <button className="mt-4 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-950">Add to Cart</button>
+              <button className="mt-4 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-950">Add to Cart</button>
               <button className="mt-4 bg-rose-600 text-white px-4 py-2 rounded hover:bg-rose-950">Add to Cart</button>
           </div>
       </div>

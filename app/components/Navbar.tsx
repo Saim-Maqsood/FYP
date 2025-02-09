@@ -2,8 +2,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { SignInButton, SignUpButton } from '@clerk/nextjs';
-
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -74,9 +72,8 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className='w-screen h-[5dvh] flex justify-center text-white gap-6'>
-        <SignUpButton />
-        <SignInButton />
+      <div className='h-[5dvh]'>
+
       </div>
     </>
   );
