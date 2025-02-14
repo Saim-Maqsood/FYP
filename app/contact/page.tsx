@@ -30,7 +30,7 @@ const page = () => {
             <label className="block text-sm font-medium mb-2 text-white" htmlFor="message">Your Message</label>
             <textarea className="w-full p-3 bg-gray-900 rounded-md focus:ring focus:ring-green-500" id="message" rows={4} placeholder="Your Message"></textarea>
           </div>
-          <button className="w-full bg-rose-600 hover:bg-rose-950 text-white font-semibold py-3 rounded-md">Submit</button>
+          <button className=" bg-white px-2 py-2 rounded-md text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-black w-full">Submit</button>
         </form>
       </main>
     </>

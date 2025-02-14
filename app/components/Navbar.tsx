@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import SignIn from './SignIn';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -73,9 +72,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <div className='h-[10dvh]'>
-        <SignIn />
-      </div>
     </>
   );
 };

@@ -28,8 +28,8 @@ const Banner = () => {
           />
           <p className='text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white'>Welcome to <span className={`${fonda.className} text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl`}>medMagic</span></p>
           <div className='mt-[10dvh]'>
-          <Link href={"/"}>
-          <button type="submit" className=" bg-rose-600 hover:bg-rose-950 p-1 rounded-md text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-white">SHOP NOW</button>
+          <Link href={"/store"}>
+          <button type="submit" className=" bg-white px-2 py-2 rounded-md text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl text-black">SHOP NOW</button>
           </Link>
           </div>
         </div>
