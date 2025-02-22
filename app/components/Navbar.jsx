@@ -11,7 +11,7 @@ const Navbar = () => {
         <Link href="/store" className="p-2 text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">Store</Link>
         <Link href="/about" className="p-2 text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">About Us</Link>
         <Link href="/contact" className="p-2 text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">Contact Us</Link>
-        <Link href="/" className="p-2 text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">FAQs</Link>
+        <Link href="/FAQ" className="p-2 text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">FAQs</Link>
       </div>
     </div>
   )
