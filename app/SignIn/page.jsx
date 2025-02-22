@@ -1,8 +1,8 @@
 import Head from 'next/head';
 export const generateMetadata = () => {
-  return {
-    title:"medMagic - sign in"
-  }
+  return (
+    {title:"medMagic - sign in"}
+  )
 }
 const page = () => {
   return (

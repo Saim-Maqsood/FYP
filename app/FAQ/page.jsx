@@ -5,9 +5,19 @@ import {
     AccordionTrigger,
   } from "@/components/ui/accordion"
 import React from 'react'
+import Head from 'next/head';
+export const generateMetadata = () => {
+    return (
+        {title:"medMagic - FAQ"}   
+    )
+}
 
 const page = () => {
   return (
+    <>
+    <Head>
+        <title>{generateMetadata().title}</title>
+    </Head>
     <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
           <AccordionTrigger className="text-white">Is it accessible?</AccordionTrigger>
@@ -29,6 +39,7 @@ const page = () => {
           </AccordionContent>
         </AccordionItem>
       </Accordion>
+      </>
   )
 }
 
